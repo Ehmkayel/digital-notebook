@@ -11,7 +11,7 @@
 8. Check if the string contains a word Script using includes() method
 9. Split the string into an array using split() method
 10. Split the string 30 Days Of JavaScript at the space using split() method
-'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
 11. Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
 12. What is character at index 15 in '30 Days Of JavaScript' string? Use charAt() method.
 13. What is the character code of J in '30 Days Of JavaScript' string using charCodeAt()
