@@ -99,5 +99,11 @@ const date = today.getDate();
 const hours = today.getHours();
 const minutes = today.getMinutes();
 
+console.log(today)
+console.log(year)
+console.log(month)
+console.log(date)
+console.log(hours)
+console.log(minutes)
 
 
