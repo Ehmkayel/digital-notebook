@@ -1,0 +1,1 @@
+I took the opportunity to review the exercises from Day 1 to Day 4 with my friends. This collaborative effort not only reinforced my understanding of the foundational concepts but also fostered a supportive learning environment where we could exchange ideas and troubleshoot together. It was a valuable experience that enhanced my coding skills and strengthened our bond as a group.
