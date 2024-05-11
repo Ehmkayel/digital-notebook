@@ -186,5 +186,79 @@ function evensAndOdds(positiveInteger){
     }
     
     evensAndOdds(100);
+
+    //solution 14
+
+
+    function sum() {
+        let totalSum = 0;
+        for (let i = 0; i < arguments.length; i++) {
+        totalSum += arguments[i];
+        }
+        return totalSum;
+    }
+
+    console.log(sum(1, 2, 3)); 
+    console.log(sum(1, 2, 3, 4));
+    
+    //solution 15
+
+    function generateRandomUserIp() {
+        const userFirstIp = Math.floor(Math.random() * 256);
+        const userSecondIp = Math.floor(Math.random() * 256);
+        const userThirdIp = Math.floor(Math.random() * 256);
+        const userFourthIp = Math.floor(Math.random() * 256);
+        return `${userFirstIp}.${userSecondIp}.${userThirdIp}.${userFourthIp}`;
+    }
+    
+    console.log(`Random Ip Address generated is: ${generateRandomUserIp()}`); 
+
+    //solution 16
+
+    function generateRandomMacAddress(){
+        let macAddress = '';
+        for (let i = 0; i < 6; i++) {
+            const hexaDecimalByte = Math.floor(Math.random() * 256).toString(16);
+            const paddedByte = hexaDecimalByte.padStart(2, '0');
+            macAddress += paddedByte;
+            if (i < 5) {
+                macAddress += ':';
+            }
+        }
+        return macAddress.toUpperCase();
+    }
+    
+    console.log(`The random MAC address generated is ${generateRandomMacAddress()}`);
+
+
+    //solution 17
+    function randomHexaNumberGenerator() {
+        let hexaNumber = Math.floor(Math.random() * 16777216).toString(16);
+        
+        while (hexaNumber.length < 6) {
+          hexaNumber = '0' + hexaNumber;
+        }
+        
+        return '#' + hexaNumber;
+      }
+
+    console.log(randomHexaNumberGenerator()); 
+
+    //solution 18
+
+    function userIdGenerator() {
+        const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        let userId = "";
+        for (let i = 0; i < 7; i++) {
+          userId += characters[Math.floor(Math.random() * characters.length)];
+        }
+        return userId;
+      }
+      
+      console.log(userIdGenerator());
+    
+    
+    
+
     
 
