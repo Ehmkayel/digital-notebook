@@ -193,11 +193,34 @@ function isEmpty(parameter) {
   
 isEmpty(''); 
 
+//solution 10
 
-  
+function sum(a, b, c, d){
+    let sumOfAll = a + b + c + d;
+    return sumOfAll;
+}
+console.log(sum(2, 3, 5, 8));
 
+//solution 11
+
+function sumOfArrayItems(array) {
+    if (!Array.isArray(array)) {
+      return 'Input is not an array';
+    }
   
+    let sum = 0;
+    for (const item of array) {
+      if (isNaN(item)) {
+        return 'Array contains non-numeric items';
+      }
+      sum += item;
+    }
+    return sum;
+  }
   
+console.log(sumOfArrayItems([1, 2, 3, 4])); 
+console.log(sumOfArrayItems(['3', 'ramadan', 3, 5]))
+ 
   
 
 
