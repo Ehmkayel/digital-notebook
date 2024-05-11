@@ -163,6 +163,42 @@ function generateColors(colorType, count) {
 
   console.log(shuffleArray());
 
+//solution 9
+
+function factorial(wholeNumber) {
+    let number = 1;
+    for (let i = 2; i <= wholeNumber; i++) {
+      number = number * i;
+    }
+    return number;
+  }
+  
+  console.log(factorial(15)); 
+
+
+//solution 9
+
+function isEmpty(parameter) {
+    let data = [];
+    if (parameter.length === 0) {
+      data.push('no data was given');
+    } else {
+      data.push(parameter);
+    }
+  
+    for (let item of data) {
+      console.log(item);
+    }
+  }
+  
+  isEmpty(''); 
+  
+
+  
+  
+  
+
+
  
   
   
