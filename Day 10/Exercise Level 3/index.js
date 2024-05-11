@@ -191,7 +191,9 @@ function isEmpty(parameter) {
     }
   }
   
-  isEmpty(''); 
+isEmpty(''); 
+
+
   
 
   
