@@ -114,9 +114,58 @@ function convertRgbToHexa(rgbColor) {
 
 console.log(convertRgbToHexa('rgb(250, 40, 250)'));
 
+//solution 7
+
+function generateColors(colorType, count) {
+    const randomColor = () => {
+      if (colorType === 'hexa') {
+        const result =  Math.floor(Math.random()*16777215).toString(16)
+        return '#' + result;
+      } else if (colorType === 'rgb') {
+        const red = Math.floor(Math.random()*256);
+        const green = Math.floor(Math.random()*256);
+        const blue = Math.floor(Math.random()*256); 
+        return `rgb(${red}, ${green}, ${blue})`;
+      } else {
+        return 'Invalid color type';
+      }
+    };
+  
+    if (count === 1) {
+      return randomColor();
+    } else {
+      const colors = [];
+      for (let i = 0; i < count; i++) {
+        colors.push(randomColor());
+      }
+      return colors;
+    }
+  }
+  
+  console.log(generateColors('hexa', 3)); 
+  console.log(generateColors('hexa', 1)); 
+  console.log(generateColors('rgb', 3)); 
+  console.log(generateColors('rgb', 1)); 
 
 
+  //solution 8
 
+  function shuffleArray(array) {
+    let newArray;
+    if (array) {
+      newArray = array.slice();
+    } else {
+      const initialArray = [2, 4, 8, 9, 0];
+      newArray = initialArray.slice();
+    }
+    return newArray.slice().sort(() => Math.random() - 0.5);
+  }
+
+  console.log(shuffleArray());
+
+ 
+  
+  
 
   
 
