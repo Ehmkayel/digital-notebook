@@ -72,8 +72,8 @@ Today is my first day of solving dsa and I recognize that mastering DSA requires
 ## Get in Touch
 
 You can reach out to me;
- - Linkedin- [Morufat-Lamidi](linkedin.com/in/morufat-lamidi/)
+ - Linkedin- [Morufat-Lamidi](https://linkedin.com/in/morufat-lamidi)
  - Frontend Mentor - [@Ehmkayel](https://www.frontendmentor.io/profile/Ehmkayel)
  - Twitter - [@kamalehmk](https://www.twitter.com/kamalehmk)
- - Gmail- [Mail](lamidimorufat0@gmail.com);
+ - Gmail- [Mail](mailto:lamidimorufat0@gmail.com);
 
