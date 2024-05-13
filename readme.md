@@ -53,10 +53,10 @@ Welcome to the 100DaysOfCode challenge, over the next 100 days, I'll be embarkin
  - Feel free to fork the repository for your own use and also suggest where needs improvements
 
  You can reach out to me;
- - Linkedin- [Morufat-Lamidi](linkedin.com/in/morufat-lamidi/)
+ - Linkedin- [Morufat-Lamidi](https://linkedin.com/in/morufat-lamidi)
  - Frontend Mentor - [@Ehmkayel](https://www.frontendmentor.io/profile/Ehmkayel)
  - Twitter - [@kamalehmk](https://www.twitter.com/kamalehmk)
- - Gmail- [Mail](lamidimorufat0@gmail.com);
+ - Gmail- [Mail](mailto:lamidimorufat0@gmail.com);
 
 
 
