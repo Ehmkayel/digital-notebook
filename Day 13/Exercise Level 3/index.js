@@ -179,3 +179,8 @@ function getTime() {
 }
 
 console.log(signUp('Ramadan', 'ramadan@gmail.com', 'password123'))
+
+
+//solution 3
+
+
