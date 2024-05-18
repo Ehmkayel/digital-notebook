@@ -28,3 +28,22 @@ const array = ['Apple', 'Guava', 'Mango', 'Cashew', 'PineApple', 'Star-Apple', '
 const setOfFiveStrings = new Set(array.slice(0, 5))
 console.log(setOfFiveStrings)
 
+//solution 6
+
+let countries = ['United States', 'China', 'India', 'Brazil', 'Russia', 'Japan', 'Germany', 'Indonesia', 'United Kingdom', 'France'];
+
+let mapOfCountries = new Map();
+
+countries.forEach(country => {
+    mapOfCountries.set(country, country.length);
+});
+
+mapOfCountries.forEach((length, country) => {
+    console.log(`${country} - length: ${length}`);
+});
+
+
+
+
+
+
