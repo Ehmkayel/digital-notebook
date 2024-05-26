@@ -81,7 +81,7 @@ return Math.max(requiredLength, missingChars);
 
 ![Question](./Screenshots/Question.png)
 ![solution](./Screenshots/solution.png)
-![congratulation](./Screenshots/problem-solving%20star.png.)
+![Problem-solving star](./Screenshots/problem-solving%20star.png)
 
 
 ## What I am proud of
