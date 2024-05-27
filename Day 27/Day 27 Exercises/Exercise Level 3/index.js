@@ -6,6 +6,22 @@ const userSkills = {
     tools: ['GIT', 'GitHub', 'Visual Studio Code', 'Figma']
 }
 
+//while loop
+
+console.time('while loop');
+const userSkillsValues = Object.values(userSkills);
+let i = 0;
+while (i < userSkillsValues.length) {
+    const skills = userSkillsValues[i];
+    let j = 0;
+    while (j < skills.length) {
+        console.log(skills[j]);
+        j++;
+    }
+    i++;
+}
+console.timeEnd('while loop');
+
 //for loop
  
 console.time('for loop');
@@ -29,21 +45,6 @@ for (const key of Object.keys(userSkills)) {
 }
 console.timeEnd('for of loop')
 
-//while loop
-
-console.time('while loop');
-const userSkillsValues = Object.values(userSkills);
-let i = 0;
-while (i < userSkillsValues.length) {
-    const skills = userSkillsValues[i];
-    let j = 0;
-    while (j < skills.length) {
-        console.log(skills[j]);
-        j++;
-    }
-    i++;
-}
-console.timeEnd('while loop');
 
 //forEach loop
 
