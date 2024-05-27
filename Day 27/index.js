@@ -20,7 +20,7 @@ console.error('you have made a mistake')
 
 //console.table(): This method is use to display data as a table on the console. The console.table() takes one required argument data, which must be an array or an object, and one additional optional parameter columns.
 
-const names = ['Lamidi', 'Risqat', 'Khayrat', 'Morufat']
+let names = ['Lamidi', 'Risqat', 'Khayrat', 'Morufat']
 console.table(names)
 
 //using object : This creates table with two columns:an index column containing the keys and a value column contain the values of the object.
@@ -33,14 +33,14 @@ const userDetails = {
 
 console.table(userDetails)
 
-const countries = [
+let countries = [
     ['Finland', 'Helsinki'],
     ['Sweden', 'Stockholm'],
     ['Norway', 'Oslo']
   ]
   console.table(countries)
 
-  const users = [
+  let users = [
     {
       name: 'Asabeneh',
       title: 'Programmer',
@@ -113,3 +113,86 @@ const countries = [
     console.log(countriess[i][0], countriess[i][1])
   }
   console.timeEnd('Regular for loop')
+
+  //console.info(): This displays information on the console
+
+  console.info('I love how my consistency in coding is helping in enhancing my skills')
+
+  //console.assert() : The console.assert() methods writes an error message to the console if the assertion is false. If the assertion is true, nothing happens. The first parameter is an assertion expression. If this expression is false, an Assertion failed error message will be displayed.
+
+  console.assert(25 === 3) //it's force so an error message will be log to the console
+  console.assert(10 < 25, '10 is less than 25') //since it is true no error message will be log to the console
+
+  //console.group(): This is use to group different log group
+
+    names = ['Asabeneh', 'Brook', 'David', 'John']
+    countries = [
+     ['Finland', 'Helsinki'],
+     ['Sweden', 'Stockholm'],
+     ['Norway', 'Oslo']
+    ]
+    const user = {
+        name: 'Asabeneh',
+        title: 'Programmer',
+        country: 'Finland',
+        city: 'Helsinki',
+        age: 250
+    }
+users = [
+  {
+    name: 'Asabeneh',
+    title: 'Programmer',
+    country: 'Finland',
+    city: 'Helsinki',
+    age: 250
+  },
+  {
+    name: 'Eyob',
+    title: 'Teacher',
+    country: 'Sweden',
+    city: 'London',
+    age: 25
+  },
+  {
+    name: 'Asab',
+    title: 'Instructor',
+    country: 'Norway',
+    city: 'Oslo',
+    age: 22
+  },
+  {
+    name: 'Matias',
+    title: 'Developer',
+    country: 'Denmark',
+    city: 'Copenhagen',
+    age: 28
+  }
+]
+
+console.group('Names')
+console.log(names)
+console.groupEnd()
+
+console.group('Countries')
+console.log(countries)
+console.groupEnd()
+
+console.group('Users')
+console.log(user)
+console.log(users)
+console.groupEnd()
+
+
+//console.count(): This prints the number of times it's called to the console. It takes a string label parameter. It is very helpful to count the number of times a function is called
+
+function calledFunction(){
+    console.count('The function has been called: ')
+}
+
+calledFunction()
+calledFunction()
+calledFunction()
+calledFunction()
+calledFunction()
+
+//console.clear() : This is used to clear the console
