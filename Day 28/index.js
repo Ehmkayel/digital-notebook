@@ -25,3 +25,12 @@ try {
     alert('Catch is ignored, because there are no errors'); //This will not be alerted cause there is no error in the try
   
   }
+
+
+  try {
+    // code that may throw an error
+  } catch (err) {
+    // code to be executed if an error occurs
+  } finally {
+    // code to be executed regardless of an error occurs or not
+  }
