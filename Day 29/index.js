@@ -31,3 +31,18 @@ class Details{
 
 const firstDetails = new Details ('Ramadan Lamidi', 23)
 firstDetails.displayDetails()
+
+class Food{
+    constructor(foodRecipe, method){
+        this.foodRecipe = 'Eggs and groundnut Oil'
+        this.method = method;
+        this.time = 20
+    }
+
+    displayFood(){
+        console.log(`I made a sweet meal with ${this.foodRecipe} using ${this.method} method for ${this.time} minutes`)
+    }
+}
+
+const food = new Food('', 'frying')
+food.displayFood()
