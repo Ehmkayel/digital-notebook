@@ -15,3 +15,19 @@ let person = new Person();
 console.log(person)
 
 //class constructor
+
+class Details{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+
+    displayDetails(){
+        console.log(`Name: ${this.name}`)
+        console.log(`Age: ${this.age}`)
+    }
+   
+}
+
+const firstDetails = new Details ('Ramadan Lamidi', 23)
+firstDetails.displayDetails()
