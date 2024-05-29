@@ -4,3 +4,14 @@
 class ClassName {
     //  code goes here
 }
+
+//class instantiation
+
+class Person {
+
+}
+
+let person = new Person();
+console.log(person)
+
+//class constructor
