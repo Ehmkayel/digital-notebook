@@ -83,7 +83,21 @@ class Person {
   console.log(japan)
 
 
-  //static method : This is when we assign a method to the class as a whole. 
+  //static method : This is when we assign a method to the class as a whole. In a class declaration, they are prepended by static keyword,
+
+class Calculator{
+    constructor(x, y){
+        this.x = x;
+        this.y = y;
+    }
+    static multiply(x,y){
+        return x * y
+    }
+}
+
+const value = new Calculator(10, 3)
+console.log(Calculator.multiply(value.x, value.y))
+  
 
 
 
