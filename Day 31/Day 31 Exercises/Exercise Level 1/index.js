@@ -27,6 +27,18 @@ class Animal{
             console.log('The name is greater than 4')
         }
     }
+
+    static compareAnimalsDetails(firstAnimal, secondAnimal){
+        if(firstAnimal.age > secondAnimal.age){
+            return `${firstAnimal.name} is older than ${secondAnimal.name}`
+        }else if(firstAnimal.age < secondAnimal.age){
+            return `${secondAnimal} is older than ${firstAnimal.name}`
+        }else {
+            return `Both animals are of the same age`
+        }
+
+    }
+
 }
 
 const animalInfo = new Animal('Bella', 6, 'Black', 4)
@@ -38,4 +50,5 @@ console.log(animalInfo.getDetails)
 secondAnimal.setName = 'Quartz';
 console.log(secondAnimal)
 animalInfo.getAnimalDetails()
+console.log(Animal.compareAnimalsDetails(animalInfo, secondAnimal))
 
