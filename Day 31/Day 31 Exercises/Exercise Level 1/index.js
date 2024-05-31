@@ -52,3 +52,27 @@ console.log(secondAnimal)
 animalInfo.getAnimalDetails()
 console.log(Animal.compareAnimalsDetails(animalInfo, secondAnimal))
 
+
+
+//solution 2
+
+class Dog extends Animal{
+    add(){
+        console.log(`The dog name is ${this.name}, he is ${this.age} and his color is ${this.color} with ${this.legs} legs`)
+    }
+}
+
+const dog = new Dog('Alex', '3', 'yellow', '4')
+dog.add()
+
+class Cat extends Animal{
+    getCatInfo(){
+        console.log(`The cat name is ${this.name}, she is ${this.age}`)
+    }
+}
+
+const cat = new Cat('Layla', 5, '', '')
+cat.getCatInfo()
+
+
+
