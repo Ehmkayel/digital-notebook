@@ -129,6 +129,58 @@ console.log('Percentile', statistics.percentile)
 console.log('Frequency Distribution: ', statistics.frequencyDistribution);
 
 
+//solution 2
+
+class PersonAccount{
+    constructor(firstName, lastName, incomes, expenses){
+        this.firstName = firstName
+        this.lastName = lastName
+        this.incomes = incomes
+        this.expenses = expenses
+    }
+
+    get totalIncome(){
+        let totalIncome = 0;
+        for (const income of this.incomes){
+            totalIncome += income
+        }
+        return totalIncome;
+    }
+
+    get totalExpense(){
+        let totalExpense = 0;
+        for (const expense of this.expenses){
+            totalExpense += expense
+        }
+        return totalExpense;
+    }
+
+    get accountInfo(){
+            return `My account info is fullName: ${this.firstName} ${this.lastName}, and my total income for the month is: ${this.totalIncome}, with an expenses of:${this.totalExpense},and a balance of ${this.accountBalance}`;
+    }
+
+    addIncome(income){
+        this.incomes.push(income)
+    }
+ 
+    addExpense(expense){
+     this.expenses.push(expense)
+    }
+ 
+    get accountBalance(){
+        let totalIncome = this.totalIncome
+        let totalExpense = this.totalExpense
+        let balance = totalIncome - totalExpense
+        return balance;
+    }
+}
+
+const details = new PersonAccount('Lamidi', 'Morufat',  [15000, 10000, 20000], [10000, 1200, 5000]);
+console.log(details.incomes);
+console.log(details.expenses);
+console.log(details.accountInfo);
+console.log(details.accountBalance)
+
 
 
 
