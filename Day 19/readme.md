@@ -69,27 +69,6 @@ Return Statement:
 
 After the loop finishes iterating through all characters, the function returns the final value of wordCount, which represents the number of words found in the camel case string.
 
-```
-    function camelCase(s) {
-    if(!s){
-        return 0;
-    }
-    
-      let isPreviousLowerCase = true;
-      let wordCount = 1;
-    for(let char of s){
-        let lowerCase = char >= 'a' && char <= 'z'
-        if(isPreviousLowerCase && !lowerCase){
-        wordCount++
-    }
-    isPreviousLowerCase = lowerCase
-    }
-    return wordCount;
-}
-
-```
-
-
 
 ## Screenshot
 
