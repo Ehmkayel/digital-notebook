@@ -41,4 +41,4 @@ console.log(skillsObj)
 //Clearing the localStorage
 //The clear method, will clear everything stored in the local storage
 
-localStorage.clear()
+//localStorage.clear()
