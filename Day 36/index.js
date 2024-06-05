@@ -1,0 +1,1 @@
+//Promise.prototype.then() and Promise.prototype.catch() methods return promises, they can be chained.
