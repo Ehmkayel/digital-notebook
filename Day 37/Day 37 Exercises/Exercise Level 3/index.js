@@ -50,14 +50,6 @@ function personAccount() {
     };
 }
 
-const personAccountObject = personAccount();
-localStorage.setItem('personAccount', JSON.stringify({
-    firstName: personAccountObject.firstName,
-    lastName: personAccountObject.lastName,
-    incomes: personAccountObject.incomes,
-    expenses: personAccountObject.expenses
-}));
-const retrievedData = JSON.parse(localStorage.getItem('personAccount'));
 const innerFunction = personAccount();
 console.log(innerFunction.totalIncome()); 
 console.log(innerFunction.totalExpenses()); 
