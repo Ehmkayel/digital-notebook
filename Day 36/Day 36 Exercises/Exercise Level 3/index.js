@@ -41,6 +41,22 @@ fetch(countriesAPI)
 })
 .catch((err) => console.log(err));
 
+//solution 3
+
+fetch(countriesAPI)
+.then(response => response.json())
+.then(data => {
+    const officialLanguages = new Set();
+
+    data.forEach(country => {
+        if (country.languages && country.languages.length > 0);
+        country.languages.forEach(languages => officialLanguages.add(languages.name));
+})
+    const totalLanguages = officialLanguages.size;
+    console.log('Total number of official languages used in the world:', totalLanguages);
+})
+.catch(error => console.error("Error", error));
+
 
 
 
