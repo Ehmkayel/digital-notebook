@@ -53,3 +53,39 @@ for (let i = 0; i < allH1.length; i++){
 }
 
 allH1.forEach(title => console.log(title))
+
+//Adding attribute using setAttribute
+
+//The setAttribute() method set any html attribute. It takes two parameters the type of the attribute and the name of the attribute. Let's add class and id attribute for the fourth title.
+
+const h1Titles = document.querySelectorAll('h1')
+h1Titles[3].setAttribute('class', 'title')
+h1Titles[3].setAttribute('id', 'fourth-title')
+
+
+//Adding class using classList
+//The class list method is a good method to append additional class. It does not override the original class if a class exists rather it adds additional class for the element.
+
+h1Titles[3].classList.add('title', 'header-title')
+
+
+//Removing class using remove
+//Similar to adding we can also remove class from an element. We can remove a specific class from an element.
+
+h1Titles[3].classList.remove('header-title')
+
+//Adding text using text content
+h1Titles[3].textContent = 'This is the last title'
+
+//Adding Text Content using innerHTML
+// textContent is meant to add text to an HTML element, however innerHTML can add a text or HTML element or elements as a child.
+
+
+h1Titles.forEach((title, i) => {
+  title.style.fontSize = '24px' 
+  if (i % 2 === 0) {
+    title.style.color = 'green'
+  } else {
+    title.style.color = 'red'
+  }
+})
