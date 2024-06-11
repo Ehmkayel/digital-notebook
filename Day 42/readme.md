@@ -33,6 +33,14 @@
  
  ```
 
+ - Appending child to a parent element : In other for us to see the element we created on the html document, it's best to append it to the parent as a child element. The html document can be access using document.body as it supports the appendChild() method.
+
+ ```JavaScript
+ 
+ 
+ ```
+
+
 
 
 
