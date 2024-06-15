@@ -17,9 +17,9 @@ Today I had a meeting with my software engineering hands-on team and our focus f
 
 ### Steps
 
-1. Requirements Gathering: This is where we identify what users need and want from the software, it is where we identify the pain points and define the project scope and objectives. 
+1. Planning and Analysis: The first phase of the SDLC is the project planning stage where you are gathering business requirements from your client or stakeholders. This phase is when you evaluate the feasibility of creating the product, revenue potential, the cost of production, the needs of the end-users, etc.
 
-2. Analysis: Here the requirements are break down into manageable tasks and smaller tasks.
+2. Requirements Gathering: This process guides the development of several important documents: a software requirement specification (SRS) or product specification, a Use Case document, and a Requirement Traceability Matrix document.
 
 3. Design: This is where the ideas are being turned into designs, it is where architecture and user interface prototypes are been created.
 
@@ -39,8 +39,8 @@ Today I had a meeting with my software engineering hands-on team and our focus f
 
 I learned about the Software Development Life Cycle (SDLC), a process used to design, develop, and deliver software. The Software Development Life Cycle consists of seven phases:
 
+- Planning and Analysis
 - Requirements Gathering
-- Analysis
 - Design
 - Implementation
 - Testing
