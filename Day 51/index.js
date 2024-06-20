@@ -16,5 +16,9 @@ function showDetails(){
     alert(`Name: ${name}, Age: ${age}, School: ${school}`)
 }
 
+//The syntax to add event Listener is 
+
+element.addEventListener(event, handler, [options]);
+
 
 
