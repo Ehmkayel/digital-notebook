@@ -1,6 +1,4 @@
-
-
-## Day 43 of #100DaysOfCode
+# Day 51 of #100DaysOfCode
 
 Today, I worked on a mini project from the day 23 folder of Asabeneh Yetayeh [#30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript/23_Day_Event_listeners/23_day_event_listeners.md)
 
