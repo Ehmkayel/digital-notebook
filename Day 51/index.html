@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 51</title>
+  </head>
+  <body>
+    <h2>Day 51</h2>
+    <p>The concept that I studied today is;</p>
+    <ul>
+      <li>Event Listeners</li>
+    </ul>
+    <h2>
+      To view it in browser; right click and click on inspect then navigate to
+      the console
+    </h2>
+    <p>for windows: the shortcut is ctrl + shift + j</p>
+    <p>for macOS: the shortcut is cmd + option + j</p>
+
+    <input
+      value="Click me"
+      onclick="alert('You just clicked a button')"
+      type="button"
+    />
+
+    <input
+      value="Check Details"
+      onclick="getFullDetails('Lamidi Morufat', 20, 'Obafemi Awolowo University')"
+      value="full Details"
+      type="button"
+    />
+
+    <input
+      type="button"
+      id="details"
+      value="Double Click me"
+      ondblclick="showDetails()"
+    />
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
