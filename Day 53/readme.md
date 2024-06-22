@@ -31,6 +31,9 @@ Today I joined my software engineering hands-on team and our facilitator spoke a
 - Prototyping
 - Testing
 - Feedback and Iteration
+- Requirements Analysis
+- Conceptual Design
+- Detailed Design
 
 **Tools and Technologies:**
 
