@@ -23,13 +23,13 @@ Welcome to the 100DaysOfCode challenge, over the next 100 days, I'll be embarkin
 
 ## Goals
 
- -Solidify my  JavaScript Fundamentals, Asynchronous Programming and Modern JavaScript: I aim to solidify my understanding of core JavaScript concepts to increase my JavaScript foundation.
+ - Solidify my  JavaScript Fundamentals, Asynchronous Programming and Modern JavaScript: I aim to solidify my understanding of core JavaScript concepts to increase my JavaScript foundation.
 
- -Increasing my Problem-Solving Skills: I'll sharpen my problem-solving skills by tackling coding challenges and algorithm problems and I will be doing that with [Hackerank](https://www.hackerrank.com/), focusing on writing clean, efficient, and bug-free code.
+ - Increasing my Problem-Solving Skills: I'll sharpen my problem-solving skills by tackling coding challenges and algorithm problems and I will be doing that with [Hackerank](https://www.hackerrank.com/), focusing on writing clean, efficient, and bug-free code.
 
- -JavaScript Frameworks: I will also learn some Javascript frameworks to understand their concepts and also to enhance my previous knowledge in React.js
+ - JavaScript Frameworks: I will also learn some Javascript frameworks to understand their concepts and also to enhance my previous knowledge in React.js
 
- -Building Projects: Throughout the challenge, I'll work on various projects, applying my knowledge to real-world scenarios and challenges.
+ - Building Projects: Throughout the challenge, I'll work on various projects, applying my knowledge to real-world scenarios and challenges.
 
 ## Daily Log
 
@@ -45,14 +45,14 @@ Welcome to the 100DaysOfCode challenge, over the next 100 days, I'll be embarkin
 
  Your support means the world to me as I embark on this coding journey, here's how you can help:
 
- -Feedback: Whether it's on my code, projects, or overall progress, constructive feedback is invaluable for my growth. Don't hesitate to share your thoughts and suggestions.
+ - Feedback: Whether it's on my code, projects, or overall progress, constructive feedback is invaluable for my growth. Don't hesitate to share your thoughts and suggestions.
 
- -Collaboration: If you're working on similar projects or currently enhancing your skills, you can reach out let's collaborate
+ - Collaboration: If you're working on similar projects or currently enhancing your skills, you can reach out let's collaborate
 
- -Feel free to fork the repository for your own use and also suggest where needs improvements
+ - Feel free to fork the repository for your own use and also suggest where needs improvements
 
  You can reach out to me;
- -Linkedin- [Morufat-Lamidi](https://linkedin.com/in/morufat-lamidi)
- -Frontend Mentor - [@Ehmkayel](https://www.frontendmentor.io/profile/Ehmkayel)
- -Twitter - [@kamalehmk](https://www.twitter.com/kamalehmk)
- -Gmail- [Mail](mailto:lamidimorufat0@gmail.com);
+ - Linkedin- [Morufat-Lamidi](https://linkedin.com/in/morufat-lamidi)
+ - Frontend Mentor - [@Ehmkayel](https://www.frontendmentor.io/profile/Ehmkayel)
+ - Twitter - [@kamalehmk](https://www.twitter.com/kamalehmk)
+ - Gmail- [Mail](mailto:lamidimorufat0@gmail.com);
