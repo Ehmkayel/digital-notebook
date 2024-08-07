@@ -13,7 +13,7 @@ Hello, I'm Morufat Kajogbola Lamidi, a frontend developer with a passion for lea
 
 ## Overview
 
-Over the next 100 days, I'll be dedicating to enhancing my skills. From learning the fundamentals to exploring modern techniques, I'm committed to continuous learning and growth.
+I'll be dedicating the next 100 days to enhancing my skills. From learning the fundamentals to exploring modern techniques, I'm committed to continuous learning and growth.
 
 Each day, I'll be logging my progress in organized folders, documenting my studies, exercises, and projects. Additionally, I'll be sharing updates on LinkedIn with the hashtag #100DaysOfCode, offering insights, code snippets, and reflections on my journey.
 
